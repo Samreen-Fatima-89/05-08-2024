@@ -1,0 +1,83 @@
+* {
+  font-family: Montserrat !important;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 400px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilnumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.number1,
+.number2,
+.number3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number1 > h4,
+.number2 > h4,
+.number3 > h4 {
+  margin: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.but {
+  width: 60%;
+}
+
+.but > button {
+  width: 100%;
+  padding: 15px 15px;
+  border: 1px solid #e4e4e4;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.profileDes > p {
+  text-align: center;
+}
+
+.title > h1 {
+  margin: 0px !important;
+}
